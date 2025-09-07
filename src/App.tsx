@@ -43,7 +43,7 @@ const App: React.FC = () => {
     {
       id: 1,
       name: "Tatang Winky",
-      position: "CEO & Founder",
+      position: "Human Loss",
       image: winkyImg,
       description: "Expert dalam strategi digital dan pengembangan bisnis"
     },
