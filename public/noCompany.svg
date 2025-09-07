@@ -1,0 +1,25 @@
+<!-- noCompany - Orbital Mark -->
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientTransform="translate(128 128) rotate(90) scale(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22D3EE"></stop>
+      <stop offset="1" stop-color="#8B5CF6"></stop>
+    </radialGradient>
+  </defs>
+
+  <!-- Core -->
+  <circle cx="128" cy="128" r="44" fill="url(#core)"></circle>
+
+  <!-- Orbit rings -->
+  <g stroke="#7DD3FC" stroke-opacity="0.9" stroke-width="8">
+    <ellipse cx="128" cy="128" rx="88" ry="48" transform="rotate(-20 128 128)"></ellipse>
+    <ellipse cx="128" cy="128" rx="88" ry="48" transform="rotate(20 128 128)" stroke="#C4B5FD"></ellipse>
+  </g>
+
+  <!-- Satellites -->
+  <circle cx="64" cy="132" r="8" fill="#22D3EE"></circle>
+  <circle cx="196" cy="116" r="8" fill="#8B5CF6"></circle>
+
+  <!-- Subtle shadow -->
+  <ellipse cx="128" cy="206" rx="64" ry="10" fill="#000" opacity="0.12"></ellipse>
+</svg>
