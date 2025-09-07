@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { ChevronDown, Monitor, Smartphone, Globe, Users, Award, Target, Zap, Menu, X } from 'lucide-react';
 import winkyImg from "./assets/ourTeam/winky.jpg";
 
+// adaaa
+
 interface TeamMember {
   id: number;
   name: string;
