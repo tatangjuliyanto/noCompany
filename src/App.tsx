@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Monitor, Smartphone, Globe, Target, Zap, Menu, X } from 'lucide-react';
-import winkyImg from "./assets/ourTeam/winkyImg.jpg";
+import winkyImg from "./assets/ourTeam/winky.jpg";
 import farhan from "./assets/ourTeam/farhan.jpg";
 import fajrul from "./assets/ourTeam/fajrul.jpg";
 
