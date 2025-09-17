@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDown, Monitor, Smartphone, Globe, Target, Zap, Menu, X } from 'lucide-react';
-import winkyImg from "./assets/ourTeam/winky.jpg";
+import winkyImg from "./assets/ourTeam/winkyImg.jpg";
+import farhan from "./assets/ourTeam/farhan.jpg";
 
 interface TeamMember {
   id: number;
@@ -58,7 +59,7 @@ const App: React.FC = () => {
       id: 3,
       name: "JOkowi",
       position: "Lead Developer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      image: farhan,
       description: "Full-stack developer dengan keahlian React dan Node.js"
     },
     {
